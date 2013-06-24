@@ -15,32 +15,42 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
         android:text="0" />
-    
+
     <TextView
         android:id="@+id/info"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" 
+        android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
         android:text="No cameras" />
-    
+
     <Button
-        android:id="@+id/preview_button"
+        android:id="@+id/cam0_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Preview" />       
-    
+        android:text="Cam 0" />
+
+    <Button
+        android:id="@+id/cam1_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cam 1" />
+
+    <Button
+        android:id="@+id/cam2_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cam 2" />
+
+    <Button
+        android:id="@+id/cam3_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cam 3" />
+
     <FrameLayout
-    	android:id="@+id/camera_preview_0"
-    	android:layout_width="wrap_content"
-    	android:layout_height="fill_parent"
-    	android:layout_weight="1"
-    />
-    
-    <FrameLayout
-    	android:id="@+id/camera_preview_1"
-    	android:layout_width="wrap_content"
-    	android:layout_height="fill_parent"
-    	android:layout_weight="1"
-    />
+        android:id="@+id/camera_preview"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" />
 
 </LinearLayout>
