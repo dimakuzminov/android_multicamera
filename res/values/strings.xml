@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Test Cameras</string>
-    <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">cam1</string>
+    <string name="action_settings">Settings</string><string name="hello_world">Hello world!</string>
+    <string name="Capture3D">Capture3D</string>
+    <string name="preview_button">preview</string>
 
 </resources>
